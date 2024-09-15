@@ -1,23 +1,23 @@
 const home = (req, res) => {
 	// res.send("home page from controller");
-	res.render("index.ejs");
+	res.render("pages/index.ejs");
 };
 const about = (req, res) => {
 	// res.send("about page from controller");
-	res.render("about.ejs");
+	res.render("pages/about.ejs");
 };
 const contact = (req, res) => {
 	// res.send("contact page from controller");
-	res.render("contact.ejs");
+	res.render("pages/contact.ejs");
 };
 const post = (req, res) => {
 	// res.send("post page from controller");
-	res.render("post.ejs");
+	res.render("pages/post.ejs");
 };
 
 module.exports = {
 	home,
 	about,
 	contact,
-  post
+	post,
 };

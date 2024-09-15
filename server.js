@@ -9,7 +9,7 @@ const express = require("express"),
 app.use(express.static("public"));
 
 app.set("view engine", "ejs");
-// app.use(expressLayout);
+app.use(expressLayout);
 
 app.use(require("./routes/route.js"));
 
